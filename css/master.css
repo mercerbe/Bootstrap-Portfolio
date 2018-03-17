@@ -1,0 +1,49 @@
+body {
+  background-image: url(../imgs/furley_bg.png);
+}
+
+.navbar {
+  margin-bottom:0;
+  border-radius: 15px;
+  border: 0px #777777 solid;
+}
+
+small {
+  font-size: 30%;
+}
+
+.navbar-brand {
+  font-size: 250%;
+}
+
+.jumbotron {
+  background-color: #4aaaa5;
+  border: 1px #777777 solid;
+
+}
+
+.bio {
+  background-color: white;
+  padding: 20px;
+  border: 1px #777777 solid;
+  border-radius: 15px;
+}
+
+.first-letter::first-letter {
+  display: block;
+  margin: 3px;
+  font-size: 250%;
+  color: #4aaaa5;
+  font-weight: bold;
+
+}
+
+
+footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  padding: 15px;
+  background-color: #777777;
+  border-top: 5px solid #4aaaa5;
+}
