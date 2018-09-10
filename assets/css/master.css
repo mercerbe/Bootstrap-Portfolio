@@ -26,6 +26,9 @@ h2 {
   height: 5px !important;
   background-color: rgb(78, 151, 247)!important;
 }
+nav {
+  box-shadow: 0 8px 6px -6px black;
+}
 
 /* For scrolling to the next section */
 
@@ -64,6 +67,9 @@ h2 {
   color: white;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 hr {
@@ -74,13 +80,17 @@ hr {
   font-size: 65px;
   font-weight: bold;
   color: #e9ecef;
-  text-shadow: 2px 2px #FF0000;
+  text-shadow: 4px 4px black;
 }
 
 .description {
-  font-size: 20px;
+  font-size: 28px;
   color: #e9ecef;
-  text-shadow: 2px 2px #FF0000;
+  text-shadow: 3px 3px black;
+}
+.quote {
+  font-size: 22px;
+  color: #e9ecef;
 }
 
 .zoom {
@@ -114,10 +124,13 @@ hr {
   font-size: 20px;
   padding: 0 10px 0 10px;
 }
-
+.header{
+  box-shadow: 0 8px 6px -6px black;
+}
 #about-section {
   background-color: lightgray;
   padding: 100px 0 50px 0;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 #meImage {
@@ -150,6 +163,7 @@ hr {
 
 #knowledge-section {
   padding: 100px 0 50px 0;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .knowledge-row {
@@ -186,6 +200,7 @@ hr {
   background-color: lightgray;
   padding-top: 100px;
   padding-bottom: 50px;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .container-portfolio {
@@ -239,16 +254,9 @@ hr {
 }
 
 /* Hobbies */
-/* .wrapper {
-  position: relative;
-  width: 100%;
-  height: 0;
+#hobby-section {
+  box-shadow: 0 8px 6px -6px black;
 }
-.wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-} */
 
 /* Email Section */
 
@@ -256,6 +264,7 @@ hr {
   background-color: lightgray;
   padding-top: 100px;
   padding-bottom: 50px;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 .fa-envelope {
